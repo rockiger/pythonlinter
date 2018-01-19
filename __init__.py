@@ -1,7 +1,15 @@
-"""Lint plugin shows linter messages for python languages"""
+"""Lint plugin that shows linter messages for Python"""
 __pluginname__ = "Python Linter"
 __author__ = "Marco Laspe"
+__credits__ = ["Andrei Kopats", "Bryan A. Jones"]
+__license__ = "GPL3"
 __version__ = "0.1.0"
+__maintainer__ = "Marco Laspe"
+__email__ = "marco@rockiger.com"
+__status__ = "Beta"
+# This plugin is a copy of the Enki lint plugin
+# https://github.com/andreikop/enki/tree/master/enki/plugins/lint
+
 
 import re
 import os.path
